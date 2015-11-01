@@ -1,0 +1,5 @@
+(
+	(let ([myarray (new-array 2 2)])
+		(let ([x (a? myarray)])
+			(print x)))
+)

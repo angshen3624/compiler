@@ -1,0 +1,1 @@
+("6.1.1" ("f8194483c58d5654f8ad44a486224bda5b317370" . "4772934d71c58f29e492c943a74f3209301400b4") (collects #"racket" #"runtime-config.rkt") (collects #"plai" #"main.rkt") (collects #"racket" #"match" #"parse.rkt") (collects #"racket" #"match" #"gen-match.rkt") (collects #"syntax" #"parse" #"private" #"runtime-report.rkt") (collects #"plai" #"lang" #"reader.rkt"))

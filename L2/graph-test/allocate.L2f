@@ -1,0 +1,10 @@
+(:f
+  0 0
+  (x <- 5)
+  (rdi <- x)
+  (rsi <- 19)
+  (call allocate 2)
+  (rdi <- rax)
+  (call print 1)
+  (return))
+

@@ -1,0 +1,12 @@
+(:main
+  (:main
+  0 2
+  (x <- 5)
+  (rdi <- x)
+  (rsi <- 19)
+  ((mem rsp 8) <- rdi)
+  (y <- (stack-arg -8))
+  (rdi <- y)
+  (call print 1)
+  (return)))
+

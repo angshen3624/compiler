@@ -1,0 +1,7 @@
+(:f
+  1 0
+  (x *= x)
+  (rdi <- x)
+  (rax <- rdi)
+  (return)) x s_
+                

@@ -1,0 +1,8 @@
+(:f
+  2 0
+  (rdi <- 5)
+  (rsi <- 7)
+  (call allocate 2)
+  (x <- rax)
+  ((mem x 8) <- 9)
+  ((mem x 16) <- 11))

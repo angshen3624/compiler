@@ -1,0 +1,25 @@
+(:main
+ (:main
+  0 0
+  (rdi <- 11)
+  ((mem rsp -8) <- :f_ret)
+  (call :f 1)
+  :f_ret
+  (rd1 <- rax)
+  (rd1 *= 2)
+  (rd1 += 1)
+  (rdi <- rd1)
+  (call print 1)
+  (return))
+ (:f
+  1 0
+  (cjump rdi < 10 :tt :ff)
+  :tt
+  (rax <- 100)
+  (return)
+  :ff
+  (rax <- -100)
+  (return)
+  ))
+
+  

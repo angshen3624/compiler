@@ -1,0 +1,4 @@
+(
+	(let ([x (new-tuple 0 1 2 3)])
+ 		(let ([val (aref x 2)])	
+  			(print val))))

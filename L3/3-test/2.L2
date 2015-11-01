@@ -1,0 +1,9 @@
+(:main
+  (:main
+  0 0
+  (ret <- 11)
+  (ret += 7)
+  (ret -= 1)
+  (rdi <- ret)
+  (call print 1)
+  (return)))

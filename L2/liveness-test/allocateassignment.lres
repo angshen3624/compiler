@@ -1,0 +1,14 @@
+((in 
+	() 
+	(rdi) 
+	(rdi rsi) 
+	(rax) 
+	(x) 
+	(x)) 
+(out 
+	(rdi) 
+	(rdi rsi) 
+	(rax) 
+	(x) 
+	(x) 
+	()))

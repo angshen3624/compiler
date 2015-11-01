@@ -1,0 +1,17 @@
+(:main
+  (:main
+  0 0
+  (rdi <- 9)
+  (rsi <- 1)
+  (call allocate 2)
+  (x <- rax)
+  ((mem x 8) <- 1)
+  ((mem x 16) <- 3)
+  ((mem x 24) <- 5)
+  ((mem x 32) <- 7)
+  (len <- (mem x 0))
+  (len <<= 1)
+  (len += 1)
+  (rdi <- len)
+  (call print 1)
+  (return)))

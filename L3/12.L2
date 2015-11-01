@@ -1,0 +1,22 @@
+(:main
+  (:main
+  0 0
+  (rdi <- 9)
+  (rsi <- 1)
+  (call allocate 2)
+  (x <- rax)
+  (tmp <- (mem x 0))
+  (cjump 5 < tmp :pass :fail)
+  :fail
+  (rdi <- x)
+  (rsi <- 11)
+  (call array-error 2)
+  :pass
+  (y <- 5)
+  (y *= 8)
+  (y += x)
+  ((mem y 8) <- 85)
+  (y <- 1)
+  (rdi <- x)
+  (call print 1)
+  (return)))

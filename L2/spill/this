@@ -1,0 +1,5 @@
+(:f
+  (:f
+  0 0 
+  (call array-error 2)
+  (call array-error 2)))

@@ -1,0 +1,3 @@
+((let ((x (new-array 4 0)))
+ (let ((y (aset x 2 42)))
+   (print x))))

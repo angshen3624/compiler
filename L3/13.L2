@@ -1,0 +1,15 @@
+(:main
+ (:main
+  0
+  0
+  (x <- 11)
+  (var_0 <- x)
+  (var_0 >>= 1)
+  (x <- 7)
+  (x >>= 1)
+  (x *= var_0)
+  (x *= 2)
+  (x += 1)
+  (rdi <- x)
+  (call print 1)
+  (return)))

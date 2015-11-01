@@ -1,0 +1,20 @@
+(let ([x (print 0610)])
+  (begin
+      (let ([q (lambda (b)
+                 (letrec ([f (lambda (x) f)])
+                   (let ([y 11])
+                     (let ([g (if b
+                                  f
+                                  (lambda (x) y))])
+                       (g 3)))))])
+        (begin
+          (print (q x))
+          (q 1)))
+      (letrec ([ifib (lambda (n)
+                       (if (< n 4)
+                           1
+                           (+ (+ (ifib (- n 1))
+                                 (ifib (- n 2)))
+                              (+ (ifib (- n 3))
+                                 (ifib (- n 4))))))])
+        (print (ifib 35)))))

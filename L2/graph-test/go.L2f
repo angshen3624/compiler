@@ -1,0 +1,12 @@
+(:f
+  0 0
+  (x <- 5)
+  :tt
+  (cjump x = 1 :done :more)
+  :done
+  (return)
+  :more
+  (x -= 1)
+  (goto :tt)
+  (return))
+  

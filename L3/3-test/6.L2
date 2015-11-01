@@ -1,0 +1,16 @@
+(:main
+  (:main
+  0 0
+  (x <- 5)
+  (y <- x)
+  (y &= 1)
+  (cjump y = 1 :notarr :arr)
+  :arr
+  (rdi <- 3)
+  (call print 1)
+  (goto :done)
+  :notarr
+  (rdi <- 1)
+  (call print 1)
+  :done
+  (return)))

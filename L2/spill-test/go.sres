@@ -1,0 +1,17 @@
+(:f
+  0 1
+  ((mem rsp 0) <- 5)
+  :tt
+  (s_0 <- (mem rsp 0))
+  (cjump s_0 = 1 :done :more)
+  :done
+  (return)
+  :more
+  (s_1 <- (mem rsp 0))
+  (s_1 -= 1)
+  ((mem rsp 0) <- s_1)
+  (goto :tt)
+  (return)) 
+
+
+

@@ -1,0 +1,1 @@
+(:main (:main 0 0 (y <- 8) (rax <- 7) (rdi <- 7) (rcx <- 7) (rdx <- 7) (rsi <- 7) (r8 <- 7) (r9 <- 7) (r10 <- 7) (r11 <- 7) (x <- rax) (x += rdi) (x += rcx) (x += rdx) (x += rsi) (x += r8) (x += r9) (x += r10) (x += r11) (x += y) (rdi <- x) (call print 1) (return)))

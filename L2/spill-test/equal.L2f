@@ -1,0 +1,4 @@
+(:f
+  1 0
+  (rax <- x = rdi)
+  (return)) x s_

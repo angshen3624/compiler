@@ -1,0 +1,10 @@
+(:main
+ (:main
+  0 0
+  (rdi <- 5)
+  (x <- 1025)
+  (x *= 2)
+  (x += 1)
+  (rdi <- x)
+  (call print 1)
+  (return)))

@@ -1,0 +1,13 @@
+(:f
+  0 1
+  ((mem rsp 0) <- 5)
+  (s_0 <- (mem rsp 0))
+  (s_0 *= 2)
+  ((mem rsp 0) <- s_0) 
+  (s_1 <- (mem rsp 0)) 
+  (s_1 += 1) 
+  ((mem rsp 0) <- s_1) 
+  (rdi <- (mem rsp 0)) 
+  (call print 1)
+  (return))
+

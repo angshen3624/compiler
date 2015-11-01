@@ -1,0 +1,7 @@
+(
+	(let ([x 5])
+  		(let ([y (a? x)])
+   			(if y
+       			(print 1)
+       			(print 0))))
+)
